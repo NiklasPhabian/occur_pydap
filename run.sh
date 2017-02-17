@@ -1,6 +1,8 @@
-rsync -r --exclude=/handlers/ /home/griessbaum/pydap/src/pydap/ /home/griessbaum/pydapVirtualEnv/lib/python2.7/site-packages/pydap/
+rsync -r --exclude=/handlers/csv/ ../pydap/src/pydap/ ../pydapEnv/lib/python2.7/site-packages/pydap/
 
-python /home/griessbaum/pydapApp/main.py 
+rsync -r ../pydap.handlers.netcdf/src/pydap/handlers/netcdf/ ../pydapEnv/lib/python2.7/site-packages/pydap/handlers/netcdf/
+
+python2 main.py 
 
 
 #pip2 -q uninstall pydap.handlers.csv
