@@ -1,0 +1,5 @@
+-e git://github.com/NiklasPhabian/pydap#egg=pydap
+netCDF4
+-e git://github.com/NiklasPhabian/pydap.handlers.netcdf#egg=pydap-handlers-netcdf
+coards
+gsw
