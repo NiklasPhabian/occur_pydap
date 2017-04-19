@@ -29,6 +29,9 @@ The application can be dockerzied using the included Dockerfile.
 
 Build docker image: `docker build . -t occur_pydap`
 
+The built docker image is also available at:
+https://hub.docker.com/r/griessbaum/occur_pydap/
+
 Start docker instance: `docker run -p 8080:80 -v ~/occur_pydap/data:/data occur_pydap`
 
 In this command, we are mapping the container's port 80 to the host's port 8080 and bind mount the folder
