@@ -7,20 +7,22 @@ The application requires following python packages:
 
 * pydap
     * either forked from https://github.com/NiklasPhabian/pydap
-    * or official from https://github.com/pydap/pydap
+    * or from https://github.com/pydap/pydap
 * netCDF4
 * coards
 * gsw
-* optinally accoring handlers from https://github.com/pydap
+* optionally handlers from https://github.com/pydap
 
-the requirements can e.g. be installed as:
+the requirements can e.g. be installed with:
 
     virtualenv -p /usr/bin/python2.7 pydap_env
     source pydap_env/bin/activate
     pip install netCDF coards gsw flask
     pip install git+https://github.com/NiklasPhabian/pydap
-    pip install git+https://github.com/pydap/pydap.handlers.netcdf
-
+    pip install git+https://github.com/NiklasPhabian/pydap.handlers.netcdf
+    
+## Running occur_pydap
+      python occur_pydap/app/main.py
 
 ## Dockerization
 The application can be dockerzied using the included Dockerfile.
