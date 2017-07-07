@@ -14,12 +14,15 @@ The application requires following python packages:
 * optionally handlers from https://github.com/pydap
 
 the requirements can e.g. be installed with:
-
-    virtualenv -p /usr/bin/python2.7 pydap_env
+       
+    sudo apt install python3-dev
+    sudo apt install libnetcdf-dev
+    virtualenv -p /usr/bin/python3.5 pydap_env
     source pydap_env/bin/activate
-    pip install netCDF coards gsw flask
+    pip install numpy netCDF4 coards gsw flask
     pip install git+https://github.com/NiklasPhabian/pydap
     pip install git+https://github.com/NiklasPhabian/pydap.handlers.netcdf
+    
     
 ## Running occur_pydap
       python occur_pydap/app/main.py
