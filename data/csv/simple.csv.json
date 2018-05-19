@@ -1,0 +1,15 @@
+ {
+        "sequence": {
+            "temperature": {
+                "units": "degC"
+            }
+        },        
+        "NC_GLOBAL": {            
+            "AUTHOR": "Firstname Lastname",
+            "TITLE": "Example Data",
+            "Institution": "Publisher Name",
+            "DATE": "Publication Year"
+          
+        }
+    
+}
